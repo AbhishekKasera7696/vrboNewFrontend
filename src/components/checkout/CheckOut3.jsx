@@ -80,6 +80,7 @@ function CheckOut3() {
           </div>
           <div className="text2">
             <h2>Choose your payment method</h2>
+            <p>step 3 of 3</p>
           </div>
         </div>
         <div className="bigContainer">
@@ -277,8 +278,13 @@ const Div = styled.div`
 background-color: #f5f4f3;
  
 .text2{
-    margin-top:5%;
-    margin-left:2%;
+    display:flex;
+    gap:28%;
+    margin-top:2%;
+}
+
+.text2 h2{
+   margin-left:2%;
 }
   .bigContainer{
       background-color:white;
@@ -301,7 +307,7 @@ background-color: #f5f4f3;
   .topimg img {
     width: 80px;
     margin-top: -20%;
-    margin-left:250%;
+    margin-left:300%;
   }
   .topping p {
     margin-top: -1%;
@@ -315,7 +321,7 @@ background-color: #f5f4f3;
   .topimg2 img {
     width: 70px;
     margin-top: -20%;
-    margin-left: 16rem;
+    margin-left: 19rem;
   }
 
   .topimg3 img {
@@ -356,7 +362,7 @@ background-color: #f5f4f3;
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
     transition: 0.3s ease-in-out;
-    margin-left:32%;
+    margin-left:57%;
     margin-top:5%;
     &:hover {
       background-color: #1C4695;

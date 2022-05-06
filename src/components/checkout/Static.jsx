@@ -175,14 +175,25 @@ padding-top:2%;
     padding-left:2%;
 }
 
+.listingDiscount{
+    margin-top:5%
+}
+
+.listingDiscount h4{
+    margin-top:-2%;
+    margin-bottom:2%
+}
+
 .discount h5{
     color:green;
+    margin-bottom:2%;
 }
 
 .discount .material-icons{
     font-size:15px;
     color:black;
     margin-left:5%;
+    margin-bottom:2%;
 }
 
 
@@ -191,35 +202,36 @@ padding-top:2%;
     display:flex;
     border:1px solid black;
     heigth:50%;
-    width:70%;
+    width:80%;
     gap:5%;
+    margin-bottom:2%;
 }
 
 .content{
     display:flex;
-    gap:28%;
+    gap:32%;
 }
 
 .content4{
     display:flex;
-    gap:5%;
+    gap:7%;
 }
 
 
 
 .content7{
     display:flex;
-    gap:30%;
+    gap:32%;
 }
 
 .content10{
     display:flex;
-    gap:34%;
+    gap:34.3%;
 }
 
 .content13{
     display:flex;
-    gap:47%;
+    gap:47.5%;
 }
 
 .content16{

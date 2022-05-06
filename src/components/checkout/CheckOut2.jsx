@@ -15,6 +15,7 @@ function CheckOut2() {
         </div>
         <div className="text2">
           <h2>Review rules & policies</h2>
+          <p>step 2 of 3</p>
         </div>
       </div>
 
@@ -107,10 +108,16 @@ const Sec = styled.div`
   background-color: #f5f4f3;
   
   
-.text2{
-  padding-left:5%;
-  padding-top:3%;
-}
+  .text2{
+    display:flex;
+    gap:38%;
+    margin-top:2%;
+  }
+
+  .text2 h2{
+    margin-left:2%;
+   
+  }
   .container {
     background-color: white;
     margin-top: 3%;
@@ -149,7 +156,7 @@ const Sec = styled.div`
 
 .last-part-button p{
     font-size:15px;
-    margin-left:5%;
+    margin-left:2%;
 }
 
 
@@ -164,7 +171,7 @@ button{
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
     transition: 0.3s ease-in-out;
-    margin-left:32%;
+    margin-left:57%;
     margin-top:5%;
     &:hover {
       background-color: #1C4695;

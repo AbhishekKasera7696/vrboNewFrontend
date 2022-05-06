@@ -20,6 +20,7 @@ function Checkout() {
             </Link>
         <div className="text2">
           <h1>Begin your booking</h1>
+          <p>step 1 of 3</p>
         </div>
       </div>
       <div className="py_3">
@@ -124,6 +125,15 @@ export default Checkout;
 const Div = styled.div`
 background-color:#F5F4F3;
 
+.text2{
+  display:flex;
+  gap:38%;
+}
+
+.text2 h1{
+  margin-left:2%;
+}
+
 .py_3{
     margin-left:1%;
     background-color:white;
@@ -204,7 +214,7 @@ button{
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
     transition: 0.3s ease-in-out;
-   margin-left:45%;
+   margin-left:57%;
     margin-top:5%;
     &:hover {
       background-color: #1C4695;
